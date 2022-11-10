@@ -100,6 +100,7 @@ h4 {
 }
 .navigation{
     padding: 6px;
+    text-align: right;
 }
 .main-menu a{
     text-decoration: none;
@@ -270,10 +271,9 @@ footer{
       .navigation{
         grid-area: m;
         text-align: center;
-        background-color: #3a2b71;
         margin-top: 5px;
-        padding: 15px 0;
         display: none;
+        padding: 0px;
       }
       .navigation.show-menu{
         display: block;
@@ -282,6 +282,7 @@ footer{
         display: block;
         margin-left: 0;
         padding: 10px 0;
+        border: 1px solid white;
       }
       /*
       Hero Area
